@@ -10,7 +10,7 @@ public class PlayfabReload : MonoBehaviour
     {
         if (Reload)
         {
-            playfablogin.Login();
+            playfablogin.login();
             Reload = false;
             Debug.Log("Logged in");
         }
