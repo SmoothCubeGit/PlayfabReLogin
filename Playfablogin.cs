@@ -37,10 +37,10 @@ public class Playfablogin : MonoBehaviour
 
     void Start()
     {
-        Login();
+        login();
     }
 
-    public void Login()
+    public void login()
     {
         var request = new LoginWithCustomIDRequest
         {
